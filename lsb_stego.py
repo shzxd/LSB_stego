@@ -7,7 +7,7 @@ from PIL import Image
 cover = Image.open("./lena.bmp").convert("L")
 cover.show()
 stego = cover
-secret = bin(18217652291)
+secret = bin(2031498537)
 sec_len = len(secret)
 w ,h =cover.size
 
